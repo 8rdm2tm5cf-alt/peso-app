@@ -8,9 +8,9 @@
 }
 
 :root {
-  --bg: #0a0b0d;
-  --card: #141619;
-  --border: #1f2328;
+  --bg: #1B1B1D;
+  --card: #222328;
+  --border: #2a2a2f;
   --g: #2ebd85;
   --r: #f6465d;
   --b: #3375BB;
@@ -23,4 +23,10 @@ html, body, #root {
   background: var(--bg);
   color: #ffffff;
   overflow: hidden;
+}
+
+/* Cache les labels permanents des axes */
+.tv-lightweight-charts td.price,
+.tv-lightweight-charts .time-axis-cell {
+  color: transparent !important;
 }
